@@ -2,6 +2,8 @@ import React from 'react';
 import './Sidebar.css';
 import FiberManualRecordIcon from '@material-ui/icons/FiberManualRecord';
 import CreateIcon from '@material-ui/icons/Create';
+import SidebarOption from './sidebarOption/SidebarOption';
+import CommentIcon from '@material-ui/icons/Comment';
 
 function Sidebar() {
     return (
@@ -16,6 +18,8 @@ function Sidebar() {
                 </div>
                 <CreateIcon />
             </div>
+
+            <SidebarOption Icon={CommentIcon} title="Threads" />
         </div>
     )
 }
