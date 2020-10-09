@@ -2,8 +2,9 @@
     color: white;
     background-color: var(--slack-color);
     border-top: 1px solid #49274b;
-    width: 220px;
-
+    max-width: 260px;
+    min-width: 200px;
+    flex: 0.3;
 }
 
 .sidebar>hr {
