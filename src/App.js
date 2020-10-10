@@ -4,6 +4,7 @@ import Header from './components/header/Header';
 import Sidebar from './components/sidebar/Sidebar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Chat from './components/chat/Chat';
+import Login from './components/login/Login';
 
 function App() {
   const [User, setUser] = useState(null);
@@ -12,7 +13,7 @@ function App() {
     <div className="app">
       <Router>
         {!User ? (
-          <h1>LOGIN page</h1>
+          <Login />
         ) : (
             <>
               {/* Header */}
