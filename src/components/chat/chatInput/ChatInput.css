@@ -10,14 +10,16 @@
 
 
 .chatInput>form>input {
+    width: calc((100% - 260px) * 9 / 10);
     position: fixed;
     bottom: 30px;
-    width: 70%;
     border: 1px solid gray;
     border-radius: 3px;
     padding: 20px;
 }
 
 .chatInput>form>button {
-    display: none !important;
+    position: fixed;
+    bottom: 47px;
+    right: calc((100% - 260px) / 20);
 }
